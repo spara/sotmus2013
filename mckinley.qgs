@@ -1,0 +1,625 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="1.8.0-Lisboa">
+    <title></title>
+    <mapcanvas>
+        <units>degrees</units>
+        <extent>
+            <xmin>-100.114611</xmin>
+            <ymin>28.749840</ymin>
+            <xmax>-97.114722</xmax>
+            <ymax>31.473827</ymax>
+        </extent>
+        <projections>0</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+                <srsid>3401</srsid>
+                <srid>4269</srid>
+                <authid>EPSG:4269</authid>
+                <description>NAD83</description>
+                <projectionacronym>longlat</projectionacronym>
+                <ellipsoidacronym>GRS80</ellipsoidacronym>
+                <geographicflag>true</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend updateDrawingOrder="true">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="mckinley.shp" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="mckinley_shp20130609174827197" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="State_2010Census_DP1" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="State_2010Census_DP120130609133730266" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="tl_2012_us_zcta510" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="tl_2012_us_zcta51020130609172502053" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="ZCTA_2010Census_DP1" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="ZCTA_2010Census_DP120130609132000792" visible="0"/>
+            </filegroup>
+        </legendlayer>
+    </legend>
+    <projectlayers layercount="4">
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>State_2010Census_DP120130609133730266</id>
+            <datasource>/data/census_2010_demographic_profile/State_2010Census_DP1/State_2010Census_DP1.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>State_2010Census_DP1</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+                    <srsid>3401</srsid>
+                    <srid>4269</srid>
+                    <authid>EPSG:4269</authid>
+                    <description>NAD83</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="195,137,99,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="no"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>GEOID10</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="ALAND10"/>
+                <edittype type="0" name="AWATER10"/>
+                <edittype type="0" name="DP0010001"/>
+                <edittype type="0" name="DP0010002"/>
+                <edittype type="0" name="DP0010003"/>
+                <edittype type="0" name="DP0010004"/>
+                <edittype type="0" name="DP0010005"/>
+                <edittype type="0" name="DP0010006"/>
+                <edittype type="0" name="DP0010007"/>
+                <edittype type="0" name="DP0010008"/>
+                <edittype type="0" name="DP0010009"/>
+                <edittype type="0" name="DP0010010"/>
+                <edittype type="0" name="DP0010011"/>
+                <edittype type="0" name="DP0010012"/>
+                <edittype type="0" name="DP0010013"/>
+                <edittype type="0" name="DP0010014"/>
+                <edittype type="0" name="DP0010015"/>
+                <edittype type="0" name="DP0010016"/>
+                <edittype type="0" name="DP0010017"/>
+                <edittype type="0" name="DP0010018"/>
+                <edittype type="0" name="DP0010019"/>
+                <edittype type="0" name="DP0010020"/>
+                <edittype type="0" name="DP0010021"/>
+                <edittype type="0" name="DP0010022"/>
+                <edittype type="0" name="DP0010023"/>
+                <edittype type="0" name="DP0010024"/>
+                <edittype type="0" name="DP0010025"/>
+                <edittype type="0" name="DP0010026"/>
+                <edittype type="0" name="DP0010027"/>
+                <edittype type="0" name="DP0010028"/>
+                <edittype type="0" name="DP0010029"/>
+                <edittype type="0" name="DP0010030"/>
+                <edittype type="0" name="DP0010031"/>
+                <edittype type="0" name="DP0010032"/>
+                <edittype type="0" name="DP0010033"/>
+                <edittype type="0" name="DP0010034"/>
+                <edittype type="0" name="DP0010035"/>
+                <edittype type="0" name="DP0010036"/>
+                <edittype type="0" name="DP0010037"/>
+                <edittype type="0" name="DP0010038"/>
+                <edittype type="0" name="DP0010039"/>
+                <edittype type="0" name="DP0010040"/>
+                <edittype type="0" name="DP0010041"/>
+                <edittype type="0" name="DP0010042"/>
+                <edittype type="0" name="DP0010043"/>
+                <edittype type="0" name="DP0010044"/>
+                <edittype type="0" name="DP0010045"/>
+                <edittype type="0" name="DP0010046"/>
+                <edittype type="0" name="DP0010047"/>
+                <edittype type="0" name="DP0010048"/>
+                <edittype type="0" name="DP0010049"/>
+                <edittype type="0" name="DP0010050"/>
+                <edittype type="0" name="DP0010051"/>
+                <edittype type="0" name="DP0010052"/>
+                <edittype type="0" name="DP0010053"/>
+                <edittype type="0" name="DP0010054"/>
+                <edittype type="0" name="DP0010055"/>
+                <edittype type="0" name="DP0010056"/>
+                <edittype type="0" name="DP0010057"/>
+                <edittype type="0" name="DP0020001"/>
+                <edittype type="0" name="DP0020002"/>
+                <edittype type="0" name="DP0020003"/>
+                <edittype type="0" name="DP0030001"/>
+                <edittype type="0" name="DP0030002"/>
+                <edittype type="0" name="DP0030003"/>
+                <edittype type="0" name="DP0040001"/>
+                <edittype type="0" name="DP0040002"/>
+                <edittype type="0" name="DP0040003"/>
+                <edittype type="0" name="DP0050001"/>
+                <edittype type="0" name="DP0050002"/>
+                <edittype type="0" name="DP0050003"/>
+                <edittype type="0" name="DP0060001"/>
+                <edittype type="0" name="DP0060002"/>
+                <edittype type="0" name="DP0060003"/>
+                <edittype type="0" name="DP0070001"/>
+                <edittype type="0" name="DP0070002"/>
+                <edittype type="0" name="DP0070003"/>
+                <edittype type="0" name="DP0080001"/>
+                <edittype type="0" name="DP0080002"/>
+                <edittype type="0" name="DP0080003"/>
+                <edittype type="0" name="DP0080004"/>
+                <edittype type="0" name="DP0080005"/>
+                <edittype type="0" name="DP0080006"/>
+                <edittype type="0" name="DP0080007"/>
+                <edittype type="0" name="DP0080008"/>
+                <edittype type="0" name="DP0080009"/>
+                <edittype type="0" name="DP0080010"/>
+                <edittype type="0" name="DP0080011"/>
+                <edittype type="0" name="DP0080012"/>
+                <edittype type="0" name="DP0080013"/>
+                <edittype type="0" name="DP0080014"/>
+                <edittype type="0" name="DP0080015"/>
+                <edittype type="0" name="DP0080016"/>
+                <edittype type="0" name="DP0080017"/>
+                <edittype type="0" name="DP0080018"/>
+                <edittype type="0" name="DP0080019"/>
+                <edittype type="0" name="DP0080020"/>
+                <edittype type="0" name="DP0080021"/>
+                <edittype type="0" name="DP0080022"/>
+                <edittype type="0" name="DP0080023"/>
+                <edittype type="0" name="DP0080024"/>
+                <edittype type="0" name="DP0090001"/>
+                <edittype type="0" name="DP0090002"/>
+                <edittype type="0" name="DP0090003"/>
+                <edittype type="0" name="DP0090004"/>
+                <edittype type="0" name="DP0090005"/>
+                <edittype type="0" name="DP0090006"/>
+                <edittype type="0" name="DP0100001"/>
+                <edittype type="0" name="DP0100002"/>
+                <edittype type="0" name="DP0100003"/>
+                <edittype type="0" name="DP0100004"/>
+                <edittype type="0" name="DP0100005"/>
+                <edittype type="0" name="DP0100006"/>
+                <edittype type="0" name="DP0100007"/>
+                <edittype type="0" name="DP0110001"/>
+                <edittype type="0" name="DP0110002"/>
+                <edittype type="0" name="DP0110003"/>
+                <edittype type="0" name="DP0110004"/>
+                <edittype type="0" name="DP0110005"/>
+                <edittype type="0" name="DP0110006"/>
+                <edittype type="0" name="DP0110007"/>
+                <edittype type="0" name="DP0110008"/>
+                <edittype type="0" name="DP0110009"/>
+                <edittype type="0" name="DP0110010"/>
+                <edittype type="0" name="DP0110011"/>
+                <edittype type="0" name="DP0110012"/>
+                <edittype type="0" name="DP0110013"/>
+                <edittype type="0" name="DP0110014"/>
+                <edittype type="0" name="DP0110015"/>
+                <edittype type="0" name="DP0110016"/>
+                <edittype type="0" name="DP0110017"/>
+                <edittype type="0" name="DP0120001"/>
+                <edittype type="0" name="DP0120002"/>
+                <edittype type="0" name="DP0120003"/>
+                <edittype type="0" name="DP0120004"/>
+                <edittype type="0" name="DP0120005"/>
+                <edittype type="0" name="DP0120006"/>
+                <edittype type="0" name="DP0120007"/>
+                <edittype type="0" name="DP0120008"/>
+                <edittype type="0" name="DP0120009"/>
+                <edittype type="0" name="DP0120010"/>
+                <edittype type="0" name="DP0120011"/>
+                <edittype type="0" name="DP0120012"/>
+                <edittype type="0" name="DP0120013"/>
+                <edittype type="0" name="DP0120014"/>
+                <edittype type="0" name="DP0120015"/>
+                <edittype type="0" name="DP0120016"/>
+                <edittype type="0" name="DP0120017"/>
+                <edittype type="0" name="DP0120018"/>
+                <edittype type="0" name="DP0120019"/>
+                <edittype type="0" name="DP0120020"/>
+                <edittype type="0" name="DP0130001"/>
+                <edittype type="0" name="DP0130002"/>
+                <edittype type="0" name="DP0130003"/>
+                <edittype type="0" name="DP0130004"/>
+                <edittype type="0" name="DP0130005"/>
+                <edittype type="0" name="DP0130006"/>
+                <edittype type="0" name="DP0130007"/>
+                <edittype type="0" name="DP0130008"/>
+                <edittype type="0" name="DP0130009"/>
+                <edittype type="0" name="DP0130010"/>
+                <edittype type="0" name="DP0130011"/>
+                <edittype type="0" name="DP0130012"/>
+                <edittype type="0" name="DP0130013"/>
+                <edittype type="0" name="DP0130014"/>
+                <edittype type="0" name="DP0130015"/>
+                <edittype type="0" name="DP0140001"/>
+                <edittype type="0" name="DP0150001"/>
+                <edittype type="0" name="DP0160001"/>
+                <edittype type="0" name="DP0170001"/>
+                <edittype type="0" name="DP0180001"/>
+                <edittype type="0" name="DP0180002"/>
+                <edittype type="0" name="DP0180003"/>
+                <edittype type="0" name="DP0180004"/>
+                <edittype type="0" name="DP0180005"/>
+                <edittype type="0" name="DP0180006"/>
+                <edittype type="0" name="DP0180007"/>
+                <edittype type="0" name="DP0180008"/>
+                <edittype type="0" name="DP0180009"/>
+                <edittype type="0" name="DP0190001"/>
+                <edittype type="0" name="DP0200001"/>
+                <edittype type="0" name="DP0210001"/>
+                <edittype type="0" name="DP0210002"/>
+                <edittype type="0" name="DP0210003"/>
+                <edittype type="0" name="DP0220001"/>
+                <edittype type="0" name="DP0220002"/>
+                <edittype type="0" name="DP0230001"/>
+                <edittype type="0" name="DP0230002"/>
+                <edittype type="0" name="GEOID10"/>
+                <edittype type="0" name="INTPTLAT10"/>
+                <edittype type="0" name="INTPTLON10"/>
+                <edittype type="0" name="NAME10"/>
+                <edittype type="0" name="STUSPS10"/>
+                <edittype type="0" name="Shape_Area"/>
+                <edittype type="0" name="Shape_Leng"/>
+            </edittypes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>ZCTA_2010Census_DP120130609132000792</id>
+            <datasource>/data/census_2010_demographic_profile/ZCTA_2010Census_DP1/ZCTA_2010Census_DP1.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>ZCTA_2010Census_DP1</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+                    <srsid>3401</srsid>
+                    <srid>4269</srid>
+                    <authid>EPSG:4269</authid>
+                    <description>NAD83</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="132,121,217,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="1" maximumScale="1e+08" minLabelScale="1" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>mckinley_shp20130609174827197</id>
+            <datasource>./mckinley.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>mckinley.shp</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+                    <srsid>3401</srsid>
+                    <srid>4269</srid>
+                    <authid>EPSG:4269</authid>
+                    <description>NAD83</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <classificationattribute>White</classificationattribute>
+            <graduatedsymbol>
+                <mode>Quantile</mode>
+                <classificationfield>White</classificationfield>
+                <symbol>
+                    <lowervalue>139.0</lowervalue>
+                    <uppervalue>11862.6</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="128" blue="128" green="128"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="52" blue="102" green="102"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>11862.6</lowervalue>
+                    <uppervalue>23586.2</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="128" blue="128" green="128"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="112" blue="102" green="141"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>23586.2</lowervalue>
+                    <uppervalue>35309.8</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="128" blue="128" green="128"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="171" blue="101" green="180"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>35309.8</lowervalue>
+                    <uppervalue>47033.4</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="128" blue="128" green="128"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="183" blue="90" green="174"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+                <symbol>
+                    <lowervalue>47033.4</lowervalue>
+                    <uppervalue>58757.0</uppervalue>
+                    <label></label>
+                    <pointsymbol>hard:circle</pointsymbol>
+                    <pointsize>2</pointsize>
+                    <pointsizeunits>pixels</pointsizeunits>
+                    <rotationclassificationfieldname></rotationclassificationfieldname>
+                    <scaleclassificationfieldname></scaleclassificationfieldname>
+                    <symbolfieldname></symbolfieldname>
+                    <outlinecolor red="128" blue="128" green="128"/>
+                    <outlinestyle>SolidLine</outlinestyle>
+                    <outlinewidth>0.26</outlinewidth>
+                    <fillcolor red="146" blue="67" green="122"/>
+                    <fillpattern>SolidPattern</fillpattern>
+                    <texturepath></texturepath>
+                </symbol>
+            </graduatedsymbol>
+            <customproperties/>
+            <displayfield>ZCTA5CE10</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+            <overlay display="false" type="diagram">
+                <renderer item_interpretation="linear">
+                    <diagramitem size="0" value="0"/>
+                    <diagramitem size="0" value="0"/>
+                </renderer>
+                <factory sizeUnits="MM" type="Pie">
+                    <wellknownname>Pie</wellknownname>
+                    <classificationfield>0</classificationfield>
+                </factory>
+                <scalingAttribute>0</scalingAttribute>
+            </overlay>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>tl_2012_us_zcta51020130609172502053</id>
+            <datasource>/data/census2012/tl_2012_us_zcta510/tl_2012_us_zcta510.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>tl_2012_us_zcta510</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+                    <srsid>3401</srsid>
+                    <srid>4269</srid>
+                    <authid>EPSG:4269</authid>
+                    <description>NAD83</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="69,22,145,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <SpatialRefSys>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">3401</ProjectCRSID>
+        </SpatialRefSys>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
+    </properties>
+</qgis>

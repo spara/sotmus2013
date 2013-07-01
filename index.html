@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <link href='pig.css' rel='stylesheet' type='text/css' />
+        <script src='pig.js'></script>
+    </head>
+<body>
+<div class='slide'>
+    <p><b>Jeux Sans Frontières: GeoGames</b>
+    <br>
+    <br>
+    <p class="grey">Rich Gibson
+    <p class="grey">Sophia Parafina
+</div>
+<div class='slide'>
+  <p>A look at current geogames</p>
+  <ul>
+    <li><a href="http://geoguessr.com/">GeoGuessr</a></li>
+    <li><a href="http://click-that-hood.com/">Click that 'hood</a> </li>
+    <li><a href="http://streetnamefight.com/fight">Streetname Fight</a></li>
+    <li><a href="http://play.kort.ch/">Kort</a></li>
+  </ul>
+</div>
+<div class='slide'>
+    <a href="http://geoguessr.com/">GeoGuessr</a> asks the player to locate 5 places using Google StreetView
+    <p class="centeredImage"><img src="geoguessr.png" alt="GeoGuessr" width="540" height="319"></p>
+</div>
+<div class='slide'>
+  <a href="http://click-that-hood.com/">Click that 'hood</a> tests your knowledge of neighborhoods in cities all over the world. Built on open data and data submitted by users.
+  <p class="centeredImage"><img src="click_that_hood.png" alt="Click that hood" width="540" height="319"></p>
+</div>
+<div class='slide'>
+  <a href="http://streetnamefight.com/fight">StreetName Fight</a> compares the names of streets and ranks them by their frequency
+  <p class="centeredImage"><img src="streetnamefight.png" alt="StreetName Fight" width="540" height="319"></p>
+</div>
+<div class='slide'>
+  <a href="http://play.kort.ch/">Kort</a> encourages users to improve OSM data by sending them on missions to update features with missing information such as a name. 
+  <p class="centeredImage"><img src="kort.png" alt="StreetName Fight" width="320" height="480"></p>
+</div>
+<div class='slide'> 
+    <p><b>What makes them so engaging</b>
+    <ul>
+        <li><a href="http://play.kort.ch/">Kort</a> assigns tasks and rewards players with koin</li>
+        <li><a href="http://geoguessr.com/">GeoGuessr</a> relies on the player hunting for clues</li>
+        <li><a href="http://click-that-hood.com/">Click that 'hood</a> challenges the user's memory</li>
+        <li><a href="http://streetnamefight.com/fight">Streetname Fight</a> frames silly questions</li>
+    </ul>
+</div>
+<div class='slide'>
+    <p><b><a href="http://play.kort.ch/">Kort</a> assigns tasks and rewards players with koin</b></p>
+    <ul>
+        <li>Missions give players a sense of purpse</li>
+        <li>Fixes and updates OpenStreetMap</li>
+        <li>Koins, badges == bragging rights</li>
+        <li>With lots of checkin apps, what differentiates it</li>
+    </ul>
+</div>
+<div class='slide'>
+    <p><b><a href="http://geoguessr.com/">GeoGuessr</a> relies on the player hunting for clues</b>
+    <ul>
+        <li> Game play is about using clues to determine location </li>
+        <li>No leader board, but can tweet score</li>
+        <li>Challenge friends by sending them your URLL</li>
+        <li>Asynchronous game play</li>
+    </ul>
+</div>
+<div class='slide'>
+    <p><b><a href="http://click-that-hood.com/">Click that 'hood</a> challenges the user's memory</b></p>
+    <ul>
+        <li>It's like a memory card game, you get to peak at names by hovering over a neighborhood</li>
+        <li>It's built on user submitted data</li>
+        <li>Encourages users to find data and teaches them how to convert it to GeoJSON</li>
+        <li>Only 20% of the data is from Zillow neighborhoods, and Zillow data is replaced with better data</li>
+    </ul>
+</div>
+<div class='slide'>
+    <p><b><a href="http://streetnamefight.com/fight">Streetname Fight</a> frames silly questions</b></p>
+    <ul>
+        <li>Compare any set of words / numbers and find how many streets match</li>
+        <li>Compare presidents, cars, trees, colors, anything</li>
+        <li>Gives additional data to help players explore where these streets are</li>
+        <li>Great for conspiracy theories and pop psychology analyses</li>
+    </ul>
+</div>
+<div class='slide'>
+    <p><b>Building GeoGuessr or StreetName Fight using OSM</b></p>
+    <ul>
+        <li>Don't have street level imagery</li>
+        <li>Use tiles!</li>
+        <li>Tag-info can provide data from OSM for StreetName Fight</li>
+        <li>Tag-info service a bit slow, stand up your own</li>
+    </ul>
+</div>
+<div class='slide'>
+    <p><b>What makes a good game?</b></p>
+    <ul>
+        <li>Engages the user, makes them think and be resourceful</li>
+        <li>Make it simple but challenging, e.g. challenge their brains</li>
+        <li>Leader boards are not necessary, but nice to have bragging rights functionality</li>
+        <li>Let the game be the hook into further exploration</li>
+    </ul>
+</div>
+<div class='slide'>
+    <p><b>A Keep F'ing With It Production</b>
+        <br>    
+    <p class="grey">Rich Gibson (@richgibson)</p>
+    <p class="grey">Sophia Parafina (@spara)</p>
+    <br>
+    <br>
+    <p class="centeredImage"><img src="http://streetnamefight.com/img/comic/Comic_Characters_Fighter_clip_art_small.png"></p>
+</div>
+
+
+
+<!--<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4e36eb1ef5a1f53d6f000001');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+-->
